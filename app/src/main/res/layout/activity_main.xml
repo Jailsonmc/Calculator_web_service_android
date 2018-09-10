@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cfbebe"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="506dp"
+        android:layout_margin="20dp"
+        android:background="#597f85"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="2dp">
+
+        <Button
+            android:id="@+id/buttonUsers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Users" />
+
+        <TextView
+            android:id="@+id/textViewA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Valor 1:" />
+
+        <EditText
+            android:id="@+id/editTextA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textViewB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Valor 2:" />
+
+        <EditText
+            android:id="@+id/editTextB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/buttonSomar"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:text="Somar"
+
+            />
+
+        <Button
+            android:id="@+id/buttonSubtrair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subtrair" />
+
+        <Button
+            android:id="@+id/buttonDividir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dividir" />
+
+        <Button
+            android:id="@+id/buttonMultiplicar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Multiplicar" />
+
+        <TextView
+            android:id="@+id/textViewC"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:text="Resultado:"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/textViewD"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:background="#fa9999"
+            android:textSize="36sp" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
